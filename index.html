@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: #1F4959;
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        height: 80px;
+        background-color: #011425;
+        color: white;
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 26px 20px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        color: #FFF;
+        font-size: 1.04rem;
+      }
+      nav ul li a:visited {
+        color: #FFF;
+        font-size: 1.04rem;
+      }
+      .nav-link{
+        color: #fff;
+      }
+    
+      main hr {
+        border: 0;
+        background-color: #9c97f1;
+        height: 1.2px;
+        margin: 40px 84px;
+      }
+      .left {
+        font-size: 1.5rem;
+        margin: 20px 0;
+      }
+      .firstsection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 80px 0;
+      }
+      .firstsection > div {
+        width: 30%;
+      }
+      .leftsection {
+        font-size: 3rem;
+      }
+      
+      .leftsection .btn{
+        font-size: 18px;
+        padding: 12px;
+        border-radius: 12px;
+        color: white;
+        background-color: transparent;
+        border:1px solid #9c97f1;
+        cursor: pointer;
+        
+      }
+      .leftsection .btn:hover {
+       font-size: 20px;
+      }
+      a{
+        text-decoration: solid;
+        color: white;
+      }
+
+      .rightsection img {
+        width: 100%;
+        margin: 30px 0;
+      }
+      .purple {
+        color: #5C7C89;
+      }
+      #element {
+        color: blueviolet;
+      }
+      
+      
+      footer {
+        background: color #0e0e1a;
+        height: 33px;
+      }
+      .footer {
+        
+        padding: 23px 122px;
+      }
+      footer .first{
+        text-align: end;
+      }
+    @media screen and (max-width:600px ) {
+      
+
+      .firstsection{
+        flex-direction: column-reverse;
+      }
+     .horizontal-line{
+     width: 60%;
+     }
+     section.firstsection {
+      width: 45rem;
+      font-size: 18px;
+      
+    }
+    .vertical-desc {
+    
+      padding-top: 94px;
+  }}
+    @media screen and (max-width:551px ) {
+      
+
+      .firstsection{
+        flex-direction: column-reverse;
+       
+       width: 80%;
+       padding: 0 23px;
+      }
+     .horizontal-line{
+     width: 60%;
+     }
+     section.firstsection {
+      width: 45rem;
+      font-size: 0 18px;
+      width: 80%;
+      
+    }
+    
+  .btn{
+    margin-top: 46px;
+  }
+ nav .right ul li {
+  margin: 18px 4px;
+  
+  flex-direction: column-reverse;
+  
+ }
+ nav .left{
+ margin: 18px;
+ }
+
+}
+
+
+      
+      
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <!-- <div class="left">Somya's Portfolio</div> -->
+        <div class="right nav-underline">
+          <ul>
+            <li><a class="nav-link "  href="home.html">Home</a></li>
+            <li><a class="nav-link" href="about.html">About</a></li>
+            <!-- <li><a  class="nav-link" href="experience.html">Experience</a></li> -->
+            <li><a class="nav-link" href="project.html">Projects</a></li>
+            <li><a class="nav-link" href="assignment.html">Assignment</a></li>
+            <li><a class="nav-link" href="skill1.html">Skill</a></li>
+            
+
+            <li><a class="nav-link" href="contact.html">Contact Me</a></li>
+
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          Hi, My name is <span class="purple">Vanshita Rajoriya</span>
+          <div>Web Designer and Web Developer</div>
+
+          <!-- <span id="element"></span>
+          <br>
+          <button class="btn" > <a href="somyajain__resume.pdf"> Download Resume</a></button>
+          <button class="btn"> <a href="https://github.com/S15jn">Visit Github</a> </button> -->
+        </div>
+        <div class="rightsection">
+          <img src="png2.png" alt="" srcset="" />
+        </div>
+      </section>
+      <hr />
+     
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="first">
+          <!-- <h3>Somya's Developer Portfolio</h3> -->
+        </div>
+        <!-- <div class="second">
+          <ul>
+            <li></li>
+          </ul>
+        </div>
+        <div class="third"></div>
+        <div class="fourth"></div> -->
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["<i>Web </i> Developer.", " Java Developer."],
+        typeSpeed: 15, 
+        loop:true
+      });
+    </script>
+  </body>
+</html>

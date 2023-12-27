@@ -1,0 +1,115 @@
+
+    * {
+        margin: 0;
+        padding: 0;
+        color: white;
+      }
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+    .secondsection {
+        max-width: 80vw;
+        margin-top: 88px ;
+        margin-left: 66px;
+        height: 80vh;
+      }
+      .secondsection h1 {
+        font-size: 60px;
+        margin-bottom: 120px;
+        color: blueviolet;
+      }
+      .secondsection .horizontal-line {
+        background: white;
+        width: 80vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
+      .secondsection .vertical {
+        background: white;
+        width: 1px;
+        height: 127px;
+        margin: 0 100px;
+      }
+      .image-top {
+        width: 65px;
+        position: relative;
+        top: -64px;
+        left: -9px;
+      }
+    .secondsection h1{
+        text-align: center;
+      }
+      .secondsection .text-gray{
+        text-align: center;
+      }
+      .text-gray {
+        color: grey;
+        
+      }
+      .vertical-text {
+        position: relative;
+        top: 75px;
+        width: 150px;
+      }
+      .vertical-desc {
+        top: 86px;
+        color: gray;
+        width: 150px;
+        font-size: 9px;
+        padding-top: 83px;
+      }
+
+
+      nav {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        height: 80px;
+        background-color: rgb(8, 8, 46);
+      }
+    nav ul {
+        display: flex;
+        justify-content: center;
+      }
+    nav ul li {
+        list-style: none;
+        margin: 26px 20px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        color: rgb(153, 153, 226);
+        font-size: 1.04rem;
+      }
+      nav ul li a:hover {
+        color: rgb(153, 153, 226);
+        font-size: 1.04rem;
+      }
+      nav ul li a:visited {
+        color: rgb(121, 121, 239);
+        font-size: 1.04rem;
+      }
+      .nav-link{
+        color: #4540a8;
+      }
+      .left {
+        font-size: 1.5rem;
+        margin: 20px 0;
+      }
+      @media screen and (max-width:551px ){
+        .vertical-desc {
+    
+            padding-top: 94px;
+        }
+        .secondsection h1{
+          text-align: center;
+        }
+        .secondsection .text-gray{
+          text-align: center;
+        }
+      }
